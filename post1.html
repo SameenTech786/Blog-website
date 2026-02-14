@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building Clean Layouts | MyBlog</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <div class="logo">MyBlog</div>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="#">Articles</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Blog Post Layout -->
+  <main class="container post-layout">
+
+    <!-- Article Content -->
+    <article class="blog-post">
+
+      <span class="category">Frontend</span>
+      <h1>Building Clean Layouts with Modern CSS</h1>
+      <p class="post-meta">Published March 2026 · 5 min read</p>
+
+      <div class="post-image"></div>
+
+      <p>
+        Modern CSS provides powerful layout tools such as Flexbox and Grid.
+        Understanding when and how to use them helps build scalable UI systems.
+      </p>
+
+      <h2>Using Flexbox</h2>
+      <p>
+        Flexbox is ideal for one-dimensional layouts. It makes alignment
+        and spacing predictable and clean.
+      </p>
+
+      <h2>Using CSS Grid</h2>
+      <p>
+        Grid works best for two-dimensional layouts where rows and columns
+        need full control.
+      </p>
+
+      <blockquote>
+        Clean layout structure is the foundation of great frontend development.
+      </blockquote>
+
+      <!-- Author Box -->
+      <div class="author-box">
+        <h4>Sameen</h4>
+        <p>Frontend Developer passionate about clean UI and scalable design systems.</p>
+      </div>
+
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+      <div class="sidebar-box">
+        <h4>Recent Posts</h4>
+        <ul>
+          <li>Responsive Design Best Practices</li>
+          <li>Understanding CSS Grid</li>
+          <li>JavaScript for UI Interactions</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-box">
+        <h4>Categories</h4>
+        <ul>
+          <li>Frontend</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Design</li>
+        </ul>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>MyBlog</h3>
+        <p>Sharing practical insights on frontend development and design.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 MyBlog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
